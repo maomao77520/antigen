@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>
+			<%= htmlWebpackPlugin.options.title %>
+		</title> 
+		<script>
+			var coverSupport = 'CSS' in window && typeof CSS.supports === 'function' && (CSS.supports('top: env(a)') || CSS
+				.supports('top: constant(a)'))
+			document.write(
+				'<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0' +
+				(coverSupport ? ', viewport-fit=cover' : '') + '" />')
+		</script>
+		<link rel="stylesheet" href="<%= BASE_URL %>static/index.<%= VUE_APP_INDEX_CSS_HASH %>.css" />
+	</head>
+	<body>
+		<noscript>
+			<strong>Please enable JavaScript to continue.</strong>
+		</noscript>
+		<div id="app"></div>
+		<!-- built files will be auto injected -->
+ 
+		<!-- <script type="text/javascript">
+			var userAgent = navigator.userAgent;
+			if (/miniProgram/i.test(userAgent) && /micromessenger/i.test(userAgent)) {
+				// 微信小程序 JS-SDK 如果不需要兼容微信小程序，则无需引用此 JS 文件。
+				document.write('<script type="text/javascript" src="https://res.wx.qq.com/open/js/jweixin-1.4.0.js"><\/script>');
+			}
+		</script> -->
+		<!-- <script type="text/javascript" src="https://js.cdn.aliyun.dcloud.net.cn/dev/uni-app/uni.webview.1.5.2.js"> </script>-->
+		<script src="https://zgtapp.zwfw.gxzf.gov.cn/zgt-h5/js/transferPlatformTool.min.js"></script>
+		<script type="text/javascript">
+			// window.$uni = uni;
+			// uni = null;
+			
+			// 初始化执行库
+			if (croods.load){
+			  croods.load(function () {
+				  console.log("智桂通执行库加载成功")
+			  })
+			}
+		</script>
+	</body>
+</html>

@@ -1,0 +1,162 @@
+{
+	"easycom": {
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "抗原自测",
+				"navigationStyle": "custom",
+				"transparentTitle": "always", //支付宝
+				"titlePenetrate": "YES" //支付宝
+			}
+		},
+		{
+			"path": "pages/comfirm_test/index",
+			"style": {
+				"navigationBarTitleText": "抗原检测确认提交",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#ffffff"
+			}
+		},
+		{
+			"path": "pages/apply_test/unit",
+			"style": {
+				"navigationBarTitleText": "单位检测",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#ffffff"
+			}
+		},
+		{
+			"path": "pages/apply_test/community",
+			"style": {
+				"navigationBarTitleText": "社区检测",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#ffffff"
+			}
+		},
+		{
+			"path": "pages/apply_test/my",
+			"style": {
+				"navigationBarTitleText": "抗原自测",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#ffffff"
+			}
+		},
+		{
+			"path": "pages/apply_test/family",
+			"style": {
+				"navigationBarTitleText": "家人代办",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#ffffff"
+			}
+		},
+		{
+			"path": "pages/query_result/index",
+			"style": {
+				"navigationBarTitleText": "检测结果",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path": "pages/manage/index",
+			"style": {
+				"navigationBarTitleText": "管理",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#1777ff"
+			}
+		},
+		{
+			"path": "pages/unitPerson/index",
+			"style": {
+				"navigationBarTitleText": "管理员",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#1777ff"
+			}
+		},
+		{
+			"path": "pages/unitPerson/detail",
+			"style": {
+				"navigationBarTitleText": "检测详情",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path": "pages/feedback/index",
+			"style": {
+				"navigationBarTitleText": "意见反馈记录",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path": "pages/feedback/feedbackAdd",
+			"style": {
+				"navigationBarTitleText": "提交意见反馈",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path": "pages/feedback/feedbackDetail",
+			"style": {
+				"navigationBarTitleText": "意见反馈详情",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path": "pages/manual/index",
+			"style": {
+				"navigationBarTitleText": "使用指南",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationStyle": "custom",
+				"transparentTitle": "always", //支付宝
+				"titlePenetrate": "YES" //支付宝
+			}
+		},
+		{
+			"path": "pages/manual/video",
+			"style": {
+				"navigationBarTitleText": "视频教程",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationStyle": "custom",
+				"transparentTitle": "always", //支付宝
+				"titlePenetrate": "YES" //支付宝
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "抗原自测",
+		"navigationBarBackgroundColor": "#fff",
+		"backgroundColor": "#F8F8F8",
+		"titleNView": false,
+		"rpxCalcMaxDeviceWidth": 960,
+		"rpxCalcBaseDeviceWidth": 375,
+		"rpxCalcIncludeWidth": 750
+	}
+	// "tabBar": {
+	// 	"color": "#282828",
+	// 	"selectedColor": "#347dff",
+	// 	"borderStyle": "white",
+	// 	"backgroundColor": "#ffffff",
+	// 	"list": [{
+	// 			"pagePath": "pages/index/index",
+	// 			"iconPath": "static/images/icon_index.png",
+	// 			"selectedIconPath": "static/images/icon_index_curr.png",
+	// 			"text": "首页"
+	// 		},
+	// 		{
+	// 			"pagePath": "pages/guanli/guanli",
+	// 			"iconPath": "static/images/icon_guanli.png",
+	// 			"selectedIconPath": "static/images/icon_guanli_curr.png",
+	// 			"text": "管理"
+	// 		}
+	// 	]
+	// }
+}
